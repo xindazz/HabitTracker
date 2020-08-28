@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F8C5CEA25C270967DC493E4 /* Pods_LoveAlarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866BDF8127E02B0FE5C401CC /* Pods_LoveAlarmTests.framework */; };
+		9813490F09EEB84905B43565 /* Pods_LoveAlarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43173DF94AB053536801537B /* Pods_LoveAlarm.framework */; };
+		A32F965624F745FC0083528C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A32F965524F745FC0083528C /* GoogleService-Info.plist */; };
+		A32F965824F74D6D0083528C /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F965724F74D6D0083528C /* UserInfo.swift */; };
+		A32F965A24F74EEA0083528C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F965924F74EEA0083528C /* LoginView.swift */; };
+		A32F965C24F75DB10083528C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F965B24F75DB10083528C /* HomeView.swift */; };
 		A332B5C924F620EC001AB636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5C824F620EC001AB636 /* AppDelegate.swift */; };
 		A332B5CB24F620EC001AB636 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5CA24F620EC001AB636 /* SceneDelegate.swift */; };
 		A332B5CD24F620EC001AB636 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5CC24F620EC001AB636 /* ContentView.swift */; };
@@ -15,6 +21,7 @@
 		A332B5D524F620ED001AB636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A332B5D324F620ED001AB636 /* LaunchScreen.storyboard */; };
 		A332B5E024F620ED001AB636 /* LoveAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5DF24F620ED001AB636 /* LoveAlarmTests.swift */; };
 		A332B5EB24F620ED001AB636 /* LoveAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5EA24F620ED001AB636 /* LoveAlarmUITests.swift */; };
+		E9C5E87EC9F6A036B2097FF7 /* Pods_LoveAlarm_LoveAlarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C95AC2174F462C7223F011B /* Pods_LoveAlarm_LoveAlarmUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062C715A4E10B93883F92986 /* Pods-LoveAlarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarmTests.debug.xcconfig"; path = "Target Support Files/Pods-LoveAlarmTests/Pods-LoveAlarmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C95AC2174F462C7223F011B /* Pods_LoveAlarm_LoveAlarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveAlarm_LoveAlarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43173DF94AB053536801537B /* Pods_LoveAlarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveAlarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF515CD1CB64730C4A77B60 /* Pods-LoveAlarm-LoveAlarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarm-LoveAlarmUITests.release.xcconfig"; path = "Target Support Files/Pods-LoveAlarm-LoveAlarmUITests/Pods-LoveAlarm-LoveAlarmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67E4B73D5F6DF30BE1A6B4F2 /* Pods-LoveAlarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarm.debug.xcconfig"; path = "Target Support Files/Pods-LoveAlarm/Pods-LoveAlarm.debug.xcconfig"; sourceTree = "<group>"; };
+		866BDF8127E02B0FE5C401CC /* Pods_LoveAlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveAlarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2BF72C2DBCFE5A2D90FDB5 /* Pods-LoveAlarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarmTests.release.xcconfig"; path = "Target Support Files/Pods-LoveAlarmTests/Pods-LoveAlarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		A32F965524F745FC0083528C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A32F965724F74D6D0083528C /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A32F965924F74EEA0083528C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A32F965B24F75DB10083528C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A332B5C524F620EC001AB636 /* LoveAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A332B5C824F620EC001AB636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A332B5CA24F620EC001AB636 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,8 @@
 		A332B5E624F620ED001AB636 /* LoveAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A332B5EA24F620ED001AB636 /* LoveAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveAlarmUITests.swift; sourceTree = "<group>"; };
 		A332B5EC24F620ED001AB636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A070AB743D925EECF07B4B /* Pods-LoveAlarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarm.release.xcconfig"; path = "Target Support Files/Pods-LoveAlarm/Pods-LoveAlarm.release.xcconfig"; sourceTree = "<group>"; };
+		AB14FE3A3C859EB8CD4CB34A /* Pods-LoveAlarm-LoveAlarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarm-LoveAlarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoveAlarm-LoveAlarmUITests/Pods-LoveAlarm-LoveAlarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9813490F09EEB84905B43565 /* Pods_LoveAlarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8C5CEA25C270967DC493E4 /* Pods_LoveAlarmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C5E87EC9F6A036B2097FF7 /* Pods_LoveAlarm_LoveAlarmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		193921D8C550661907A7688A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67E4B73D5F6DF30BE1A6B4F2 /* Pods-LoveAlarm.debug.xcconfig */,
+				A4A070AB743D925EECF07B4B /* Pods-LoveAlarm.release.xcconfig */,
+				AB14FE3A3C859EB8CD4CB34A /* Pods-LoveAlarm-LoveAlarmUITests.debug.xcconfig */,
+				4FF515CD1CB64730C4A77B60 /* Pods-LoveAlarm-LoveAlarmUITests.release.xcconfig */,
+				062C715A4E10B93883F92986 /* Pods-LoveAlarmTests.debug.xcconfig */,
+				8E2BF72C2DBCFE5A2D90FDB5 /* Pods-LoveAlarmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		739F5E6DC40B3C2754D1AD60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43173DF94AB053536801537B /* Pods_LoveAlarm.framework */,
+				2C95AC2174F462C7223F011B /* Pods_LoveAlarm_LoveAlarmUITests.framework */,
+				866BDF8127E02B0FE5C401CC /* Pods_LoveAlarmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A332B5BC24F620EC001AB636 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				A332B5DE24F620ED001AB636 /* LoveAlarmTests */,
 				A332B5E924F620ED001AB636 /* LoveAlarmUITests */,
 				A332B5C624F620EC001AB636 /* Products */,
+				193921D8C550661907A7688A /* Pods */,
+				739F5E6DC40B3C2754D1AD60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +148,16 @@
 			isa = PBXGroup;
 			children = (
 				A332B5C824F620EC001AB636 /* AppDelegate.swift */,
+				A32F965924F74EEA0083528C /* LoginView.swift */,
+				A32F965B24F75DB10083528C /* HomeView.swift */,
 				A332B5CA24F620EC001AB636 /* SceneDelegate.swift */,
 				A332B5CC24F620EC001AB636 /* ContentView.swift */,
 				A332B5CE24F620ED001AB636 /* Assets.xcassets */,
 				A332B5D324F620ED001AB636 /* LaunchScreen.storyboard */,
+				A32F965524F745FC0083528C /* GoogleService-Info.plist */,
 				A332B5D624F620ED001AB636 /* Info.plist */,
 				A332B5D024F620ED001AB636 /* Preview Content */,
+				A32F965724F74D6D0083528C /* UserInfo.swift */,
 			);
 			path = LoveAlarm;
 			sourceTree = "<group>";
@@ -143,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A332B5EF24F620ED001AB636 /* Build configuration list for PBXNativeTarget "LoveAlarm" */;
 			buildPhases = (
+				CA8770A9001412E5C11E9F7B /* [CP] Check Pods Manifest.lock */,
 				A332B5C124F620EC001AB636 /* Sources */,
 				A332B5C224F620EC001AB636 /* Frameworks */,
 				A332B5C324F620EC001AB636 /* Resources */,
+				EC5D1FAFACC33DC91BB0E761 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A332B5F224F620ED001AB636 /* Build configuration list for PBXNativeTarget "LoveAlarmTests" */;
 			buildPhases = (
+				B84678A4116847ECB87D357C /* [CP] Check Pods Manifest.lock */,
 				A332B5D724F620ED001AB636 /* Sources */,
 				A332B5D824F620ED001AB636 /* Frameworks */,
 				A332B5D924F620ED001AB636 /* Resources */,
@@ -178,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A332B5F524F620ED001AB636 /* Build configuration list for PBXNativeTarget "LoveAlarmUITests" */;
 			buildPhases = (
+				29EAA5C4F59788EFFD069AB6 /* [CP] Check Pods Manifest.lock */,
 				A332B5E224F620ED001AB636 /* Sources */,
 				A332B5E324F620ED001AB636 /* Frameworks */,
 				A332B5E424F620ED001AB636 /* Resources */,
+				408668EA7047050F39487D42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A332B5D524F620ED001AB636 /* LaunchScreen.storyboard in Resources */,
+				A32F965624F745FC0083528C /* GoogleService-Info.plist in Resources */,
 				A332B5D224F620ED001AB636 /* Preview Assets.xcassets in Resources */,
 				A332B5CF24F620ED001AB636 /* Assets.xcassets in Resources */,
 			);
@@ -262,13 +320,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29EAA5C4F59788EFFD069AB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveAlarm-LoveAlarmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		408668EA7047050F39487D42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveAlarm-LoveAlarmUITests/Pods-LoveAlarm-LoveAlarmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveAlarm-LoveAlarmUITests/Pods-LoveAlarm-LoveAlarmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveAlarm-LoveAlarmUITests/Pods-LoveAlarm-LoveAlarmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84678A4116847ECB87D357C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveAlarmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8770A9001412E5C11E9F7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveAlarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5D1FAFACC33DC91BB0E761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveAlarm/Pods-LoveAlarm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveAlarm/Pods-LoveAlarm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveAlarm/Pods-LoveAlarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A332B5C124F620EC001AB636 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32F965824F74D6D0083528C /* UserInfo.swift in Sources */,
 				A332B5C924F620EC001AB636 /* AppDelegate.swift in Sources */,
 				A332B5CB24F620EC001AB636 /* SceneDelegate.swift in Sources */,
+				A32F965C24F75DB10083528C /* HomeView.swift in Sources */,
+				A32F965A24F74EEA0083528C /* LoginView.swift in Sources */,
 				A332B5CD24F620EC001AB636 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +596,7 @@
 		};
 		A332B5F024F620ED001AB636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E4B73D5F6DF30BE1A6B4F2 /* Pods-LoveAlarm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +616,7 @@
 		};
 		A332B5F124F620ED001AB636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A070AB743D925EECF07B4B /* Pods-LoveAlarm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +636,7 @@
 		};
 		A332B5F324F620ED001AB636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062C715A4E10B93883F92986 /* Pods-LoveAlarmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +658,7 @@
 		};
 		A332B5F424F620ED001AB636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2BF72C2DBCFE5A2D90FDB5 /* Pods-LoveAlarmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +680,7 @@
 		};
 		A332B5F624F620ED001AB636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB14FE3A3C859EB8CD4CB34A /* Pods-LoveAlarm-LoveAlarmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +700,7 @@
 		};
 		A332B5F724F620ED001AB636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF515CD1CB64730C4A77B60 /* Pods-LoveAlarm-LoveAlarmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

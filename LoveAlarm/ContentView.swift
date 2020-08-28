@@ -7,10 +7,23 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    @EnvironmentObject var userInfo: UserInfo
     var body: some View {
-        Text("Hello, World!")
+        Group {
+            if userInfo.isUserAuthenticated == .undefined {
+                Text("Loading...")
+            } else if userInfo.isUserAuthenticated == .signedIn {
+                HomeView()
+            } else {
+                LoginView()
+            }
+        }
+        .onAppear {
+            self.userInfo.configureFirebaseStateDidChange()
+        }
     }
 }
 
