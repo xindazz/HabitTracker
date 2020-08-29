@@ -14,9 +14,9 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             Text("Logged in as \(userInfo.user.name)")
-            .navigationBarTitle("Firebase Loginnnnn")
+            .navigationBarTitle("Firebase Login")
                 .navigationBarItems(trailing: Button("Log out") {
-                    self.userInfo.isUserAuthenticated = .signedIn
+                    self.userInfo.isUserAuthenticated = .signedOut
                     FBAuth.logout { (result) in
                         print("Logged out")
                     }

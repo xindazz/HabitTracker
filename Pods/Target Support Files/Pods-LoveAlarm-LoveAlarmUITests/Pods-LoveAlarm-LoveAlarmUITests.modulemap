@@ -1,0 +1,6 @@
+framework module Pods_LoveAlarm_LoveAlarmUITests {
+  umbrella header "Pods-LoveAlarm-LoveAlarmUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
