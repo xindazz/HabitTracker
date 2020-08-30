@@ -7,14 +7,14 @@
 //
 
 import Foundation
-import FirebaseAuth
+import Firebase
 
 class UserInfo : ObservableObject {
     enum FBAuthState {
         case undefined, signedOut, signedIn
     }
     @Published var isUserAuthenticated: FBAuthState = .undefined
-    @Published var user: FBUser = .init(uid: "", name: "", email: "")
+    @Published var user: FBUser = .init(uid: "", name: "", email: "", haveNewAlarm: false, alarmsByMe: Array<DocumentReference>(), alarmsForMe: Array<DocumentReference>())
     
     var authStateDidChangeListenerHandle: AuthStateDidChangeListenerHandle?
     

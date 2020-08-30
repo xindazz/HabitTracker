@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F8C5CEA25C270967DC493E4 /* Pods_LoveAlarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866BDF8127E02B0FE5C401CC /* Pods_LoveAlarmTests.framework */; };
 		9813490F09EEB84905B43565 /* Pods_LoveAlarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43173DF94AB053536801537B /* Pods_LoveAlarm.framework */; };
+		A32838B524F9EECF0024519E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32838B424F9EECF0024519E /* Alarm.swift */; };
+		A32838B924FA0F1C0024519E /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32838B824FA0F1C0024519E /* AddAlarmView.swift */; };
 		A329C78B24F8AB7C007C6391 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329C78A24F8AB7C007C6391 /* UserViewModel.swift */; };
 		A329C78F24F8AB87007C6391 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329C78C24F8AB87007C6391 /* SignInView.swift */; };
 		A329C79724F8D6A6007C6391 /* FBFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A329C79324F8D6A4007C6391 /* FBFireStore.swift */; };
@@ -22,6 +24,7 @@
 		A32F965A24F74EEA0083528C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F965924F74EEA0083528C /* LoginView.swift */; };
 		A32F965C24F75DB10083528C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F965B24F75DB10083528C /* HomeView.swift */; };
 		A32FD10B24F97839003347CE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FD10A24F97839003347CE /* SignUpView.swift */; };
+		A32FE5F624FB74FA00DE4C93 /* MyAlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE5F524FB74FA00DE4C93 /* MyAlarmsView.swift */; };
 		A332B5C924F620EC001AB636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5C824F620EC001AB636 /* AppDelegate.swift */; };
 		A332B5CB24F620EC001AB636 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5CA24F620EC001AB636 /* SceneDelegate.swift */; };
 		A332B5CD24F620EC001AB636 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332B5CC24F620EC001AB636 /* ContentView.swift */; };
@@ -58,6 +61,8 @@
 		67E4B73D5F6DF30BE1A6B4F2 /* Pods-LoveAlarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarm.debug.xcconfig"; path = "Target Support Files/Pods-LoveAlarm/Pods-LoveAlarm.debug.xcconfig"; sourceTree = "<group>"; };
 		866BDF8127E02B0FE5C401CC /* Pods_LoveAlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveAlarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2BF72C2DBCFE5A2D90FDB5 /* Pods-LoveAlarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAlarmTests.release.xcconfig"; path = "Target Support Files/Pods-LoveAlarmTests/Pods-LoveAlarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		A32838B424F9EECF0024519E /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		A32838B824FA0F1C0024519E /* AddAlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddAlarmView.swift; path = ../../../../../Desktop/AddAlarmView.swift; sourceTree = "<group>"; };
 		A329C78A24F8AB7C007C6391 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		A329C78C24F8AB87007C6391 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		A329C79324F8D6A4007C6391 /* FBFireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStore.swift; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 		A32F965924F74EEA0083528C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A32F965B24F75DB10083528C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A32FD10A24F97839003347CE /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A32FE5F524FB74FA00DE4C93 /* MyAlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlarmsView.swift; sourceTree = "<group>"; };
 		A332B5C524F620EC001AB636 /* LoveAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A332B5C824F620EC001AB636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A332B5CA24F620EC001AB636 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,7 +151,9 @@
 			children = (
 				A32F965924F74EEA0083528C /* LoginView.swift */,
 				A32F965B24F75DB10083528C /* HomeView.swift */,
+				A32FE5F524FB74FA00DE4C93 /* MyAlarmsView.swift */,
 				A329C78C24F8AB87007C6391 /* SignInView.swift */,
+				A32838B824FA0F1C0024519E /* AddAlarmView.swift */,
 				A32FD10A24F97839003347CE /* SignUpView.swift */,
 			);
 			path = Views;
@@ -199,11 +207,12 @@
 			isa = PBXGroup;
 			children = (
 				A332B5C824F620EC001AB636 /* AppDelegate.swift */,
-				A329C78824F8AB3B007C6391 /* Views */,
 				A332B5CA24F620EC001AB636 /* SceneDelegate.swift */,
 				A332B5CC24F620EC001AB636 /* ContentView.swift */,
-				A329C79224F8D691007C6391 /* FireStore */,
+				A329C78824F8AB3B007C6391 /* Views */,
 				A329C78924F8AB6D007C6391 /* Auth */,
+				A329C79224F8D691007C6391 /* FireStore */,
+				A32838B424F9EECF0024519E /* Alarm.swift */,
 				A332B5CE24F620ED001AB636 /* Assets.xcassets */,
 				A332B5D324F620ED001AB636 /* LaunchScreen.storyboard */,
 				A32F965524F745FC0083528C /* GoogleService-Info.plist */,
@@ -488,11 +497,14 @@
 				A332B5CB24F620EC001AB636 /* SceneDelegate.swift in Sources */,
 				A329C79724F8D6A6007C6391 /* FBFireStore.swift in Sources */,
 				A329C78F24F8AB87007C6391 /* SignInView.swift in Sources */,
+				A32838B524F9EECF0024519E /* Alarm.swift in Sources */,
 				A32F965C24F75DB10083528C /* HomeView.swift in Sources */,
 				A329C79824F8D6A6007C6391 /* FBUser.swift in Sources */,
 				A329C79E24F8D6B5007C6391 /* FBAuthError.swift in Sources */,
 				A32F965A24F74EEA0083528C /* LoginView.swift in Sources */,
+				A32FE5F624FB74FA00DE4C93 /* MyAlarmsView.swift in Sources */,
 				A329C78B24F8AB7C007C6391 /* UserViewModel.swift in Sources */,
+				A32838B924FA0F1C0024519E /* AddAlarmView.swift in Sources */,
 				A332B5CD24F620EC001AB636 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

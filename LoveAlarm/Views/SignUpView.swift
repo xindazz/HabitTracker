@@ -13,6 +13,7 @@ struct SignUpView: View {
     @EnvironmentObject var userInfo: UserInfo
     @State var user: UserViewModel = UserViewModel()
     @Environment(\.presentationMode) var presentationMode
+    
     @State private var showError = false
     @State private var errorString = ""
     

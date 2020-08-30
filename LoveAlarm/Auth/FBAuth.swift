@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import FirebaseAuth
+import Firebase
 import CryptoKit
 import AuthenticationServices
 
@@ -112,8 +112,12 @@ struct FBAuth {
         
         
         let data = FBUser.dataDict(uid: uid,
-                                         name: name,
-                                         email: email)
+                                   name: name,
+                                   email: email,
+                                   haveNewAlarm: false,
+                                   alarmsByMe: Array<DocumentReference>(),
+                                   alarmsForMe: Array<DocumentReference>()
+                                  )
         
         // Now create or merge the User in Firestore DB
         FBFirestore.mergeFBUser(data, uid: uid) { (result) in
@@ -165,8 +169,7 @@ struct FBAuth {
     }
     
     // MARK: - FB Firestore User creation
-    static func createUser(
-                           withEmail email:String,
+    static func createUser(withEmail email:String,
                            name: String,
                            password:String,
                            completionHandler:@escaping (Result<Bool,Error>) -> Void) {
@@ -180,8 +183,12 @@ struct FBAuth {
                 return
             }
             let data = FBUser.dataDict(uid: authResult!.user.uid,
-                                             name: name,
-                                             email: authResult!.user.email!)
+                                       name: name,
+                                       email: authResult!.user.email!,
+                                       haveNewAlarm: false,
+                                       alarmsByMe: Array<DocumentReference>(),
+                                       alarmsForMe: Array<DocumentReference>()
+                                             )
             
             FBFirestore.mergeFBUser(data, uid: authResult!.user.uid) { (result) in
                 completionHandler(result)

@@ -12,6 +12,7 @@ target 'LoveAlarm' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
 
   target 'LoveAlarmTests' do
     inherit! :search_paths

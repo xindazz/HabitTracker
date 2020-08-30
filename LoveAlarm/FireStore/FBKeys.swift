@@ -11,12 +11,16 @@ enum FBKeys {
     
     enum CollectionPath {
         static let users = "users"
+        static let alarms = "alarms"
     }
     
     enum User {
         static let uid = "uid"
         static let name = "name"
         static let email = "email"
+        static let haveNewAlarm = "haveNewAlarm"
+        static let alarmsByMe = "alarmsByMe"
+        static let alarmsForMe = "alarmsForMe"
         
         // Add app specific keys here
     }
